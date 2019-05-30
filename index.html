@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="index.css">
+    <title>高雄旅遊資訊</title>
+</head>
+<body>
+    <div class="wrap">
+        <div class="header">
+          <img src="https://hexschool.github.io/JavaScript_HomeWork/assets/Hero.png" alt="">
+          <h1>高雄旅遊資訊</h1>
+          <div class="area">
+             <select class="areaList" onchange="area()">
+                <option value=""> - - 請選擇行政區 - - </option>
+                <option value="前鎮區">前鎮區</option>
+                <option value="楠梓區">楠梓區</option>
+                <option value="三民區">三民區</option>
+                <option value="內門區">內門區</option>
+                <option value="美濃區">美濃區</option>
+                <option value="大樹區">大樹區</option>
+                <option value="仁武區">仁武區</option>
+                <option value="左營區">左營區</option>
+                <option value="永安區">永安區</option>
+                <option value="甲仙區">甲仙區</option>
+                <option value="田寮區">田寮區</option>
+                <option value="苓雅區">苓雅區</option>
+                <option value="新興區">新興區</option>
+              </select>
+           </div>
+                    
+        </div>
+        <div class="clear"></div>
+            
+        <div class="content">
+          <div class="hot">    
+            <h2>熱門行政區</h2>     
+            <button onclick="area1()" value="苓雅區" class="no1">苓雅區</button>
+            <button onclick="area2()" value="三民區" class="no2">三民區</button>
+            <button onclick="area3()" value="新興區" class="no3">新興區</button>
+            <button onclick="area4()" value="左營區" class="no4">左營區</button>
+         </div>
+          <div class="arealine"></div>
+          <h2 class="selectarea"></h2>        
+          <div class="list"></div>
+        </div>
+          
+        <div class="clear"></div>
+        <div class="footer">
+            <h4>高雄旅遊網</h4>
+            <p>資料來源：高雄市政府</p>
+        </div>
+        
+      </div>
+            
+    <script src="index.js"></script>
+</body>
+</html>

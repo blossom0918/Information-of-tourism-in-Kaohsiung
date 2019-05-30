@@ -1,0 +1,330 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.wrap{
+	max-width: 1024px;
+	font-family: "微軟正黑體", sans-serif;
+	float: none;
+	margin: auto;
+	padding: 1%;
+  }
+  
+  .header img{
+	width: 1024px;
+  }
+  
+  .header h1{
+	font-size: 40px;
+	color: #fff;
+	text-align: center;
+	  margin-top: -280px;
+  }
+  
+  .area{
+	width: 452px;
+	margin-left: 28%;
+	padding-top: 70px;
+  }
+  
+  .areaList{
+	background: rgba(255,255,255,0.70);  
+	width: 452px;
+	height: 48px;  
+	border: 2px solid #FFFFFF;
+	border-radius: 3px; 
+	font-size: 16px;
+	font-family: "微軟正黑體";
+	font-weight: bold;
+	position: absolute;
+  }
+  
+  .hot{
+	width: 800px;
+	height: 120px;
+	background-color: #fff;
+	box-shadow: 0 1px 3px 0 rgba(0,0,0,0.20);
+	border-radius: 5px;
+	padding-bottom: 5px;
+	position: absolute;
+	top: 340px;
+	right: 180px;
+
+  }
+  
+  .hot h2{
+	font-size: 18px;
+	color: #000;
+	padding: 20px;
+  }
+  
+  button{
+	border: 0;
+	background-color: none;
+	float: left;
+	font-size: 18px;
+	color: #fff;
+	width: 115px;
+	border-radius: 5px;
+	text-align: center;
+	padding: 10px;
+	margin-left: 45px;
+	font-family: "微軟正黑體";
+  }
+  
+  .no1{
+	background: #8A82CC;
+  }
+  
+  .no2{
+	background: #FFA782;
+  }
+  
+  .no3{
+	background: #F5D005;
+  }
+  
+  .no4{
+	background: #559AC8;
+  }
+  
+  .clear{
+	clear: both;
+  }
+  
+  .content{
+	width: 1024px;
+	background-color: #F8F8FF;
+	padding-top: 180px;
+  }
+  
+  .line{
+	width: 900px;
+	border: 1px solid #559AC8;
+	border-style: dashed;
+	position: absolute;
+	top: 550px;
+	right: 122px;
+  }
+  
+  .selectarea{
+	font-size: 36px;
+	color: #8A82CC;
+	text-align: center;
+	padding-top: 210px;
+  }
+  
+  .list{
+	float: left;
+	width: 1024px;
+	background-color: #F8F8FF;
+  }
+  
+  .list div{
+	float: left;
+	max-width: 450px;
+	height: 320px;
+	background-color: #fff;
+	margin: 30px;
+	box-shadow: 0 1px 3px 0 rgba(0,0,0,0.20);
+	border-radius: 2px;
+	font-size: 16px;
+	font-family: "微軟正黑體";
+	position: relative;
+  }
+  
+  .pic{
+	width: 450px;
+	height: 175px;
+	object-fit: cover;
+  }
+  
+  .name{ 
+	margin-left: 20px;
+	margin-top: -35px;
+	font-size: 24px;
+	color: #fff;
+	background-color: rgba(0,0,0,0.30);
+	padding: 2px;
+	position: absolute;
+  }
+  
+  .zone{ 
+	margin-left: 340px;
+	margin-top: -28px;
+	color: #fff;
+	background-color: rgba(0,0,0,0.30);
+	padding: 2px;
+	position: absolute;
+  }
+  
+  .timeicon{ 
+	margin-left: 20px;
+	margin-top: 15px;
+  }
+  
+  .time{
+	margin-left: 55px;
+	margin-top: -19px;
+  }
+  
+  .addicon{ 
+	margin-left: 20px;
+	margin-top: 12px;
+  }
+  
+  .add{
+	margin-left: 55px;
+	margin-top: -19px;
+  }
+  
+  .telicon{ 
+	margin-left: 22.5px;
+	margin-top: 12px;
+  }
+  
+  .tel{
+	margin-left: 55px;
+	margin-top: -19px;
+  }
+  
+  .ticketicon{ 
+	position: absolute;
+	top: 285px;
+	right: 115px;
+  }
+  
+  .ticket{
+	position: absolute;
+	top: 286px;
+	right: 35px;
+  }
+  
+  .footer{
+	max-width: 1024px;
+	height: 115px;
+	background-color: #559AC8;
+  }
+  
+  .footer h4{
+	font-size: 14px;
+	color: #fff;
+	text-align: center;
+	padding-top: 32px;
+  }
+  
+  .footer p{
+	font-size: 14px;
+	color: #FFD366;
+	text-align: center;
+	padding-top: 20px;
+  }
+  
+  @media (max-width:1100px){
+	.header{
+		width: 100%;
+	  }
+	
+	  .header img{
+		width: 100%;
+	  }
+	  
+	  .area{
+		width: 85%;
+	  margin: auto;
+	  }
+	  
+	  .areaList{
+		width: 75%;
+	  }
+	  
+	  .content{
+		width: 100%;
+	  }
+	  
+	  .hot{
+		width: 90%;
+		position: static;
+		margin: auto;
+	  }
+	  
+	  button{
+		width: 15%;
+		font-size: 90%;
+		margin-left: 8%;
+	  }
+	
+	  .line{
+		width: 100%;
+		position: static;
+		float: none;
+		margin: auto;
+		margin-top: 10%;
+	  }
+	  
+	  .selectarea{
+		padding-top: 10%;
+	  }
+	  
+	  .list{
+		width: 100%;
+	  }
+	  
+	  .list div{
+	  float: none;
+	  margin: auto;
+	  margin-top: 30px;
+	  margin-bottom: 30px;
+	  width: 90%;
+	  }
+	  
+	  .footer{
+		width: 100%;
+	  }
+  }
+  
